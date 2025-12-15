@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Recipe Feedback</title>
+<link rel="stylesheet" href="css/style.css">
+<script src="js/script.js" defer></script>
+</head>
+<body>
+
+<header>
+  <div class="navbar">
+    <div class="logo">🍳 Home Kitchen</div>
+    <button class="menu-btn" onclick="toggleMenu()">☰</button>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="recipe.html">Recipe of the Week</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a href="feedback.html">Feedback</a>
+    </div>
+  </div>
+</header>
+
+<section>
+  <h1>Recipe Feedback</h1>
+
+  <form>
+    <input placeholder="Your Name" required>
+    <input placeholder="Recipe Name" required>
+
+    <textarea placeholder="What did you like about the recipe?" required></textarea>
+    <textarea placeholder="What can we improve?" required></textarea>
+
+    <select required>
+      <option value="">Would you try it again?</option>
+      <option>Yes</option>
+      <option>Maybe</option>
+      <option>No</option>
+    </select>
+
+    <button>Submit Review</button>
+  </form>
+</section>
+
+<footer>© 2025 Home Kitchen</footer>
+</body>
+</html>
